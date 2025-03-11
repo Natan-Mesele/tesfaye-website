@@ -40,7 +40,7 @@ function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setMenuOpen(true)}
-          className="md:hidden text-gray-700 text-2xl focus:outline-none"
+          className="md:hidden text-gray-700 text-2xl focus:outline-none cursor-pointer"
         >
           ☰
         </button>
@@ -55,7 +55,7 @@ function Header() {
         {/* Close Button */}
         <button
           onClick={() => setMenuOpen(false)}
-          className="absolute top-4 right-4 text-gray-700 text-2xl focus:outline-none"
+          className="absolute top-4 right-4 text-gray-700 text-2xl focus:outline-none cursor-pointer"
         >
           ✕
         </button>

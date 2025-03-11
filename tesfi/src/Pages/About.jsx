@@ -18,7 +18,7 @@ const About = () => {
     return (
         <section id="home" className="relative w-full">
             <Slider {...settings} className="h-full">
-                <div className="w-full h-full lg:h-[80vh]">
+                <div className="w-full lg:h-[80vh]">
                     <img
                         className="w-full h-full object-cover"
                         src="https://z-p3-scontent.fadd1-1.fna.fbcdn.net/v/t1.6435-9/169071844_3817223531679076_5867760248704401295_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeE8azJRbvqEzfYfWgvFKhkZic3R4M_rc9mJzdHgz-tz2YvE0az8fWxhEZ_LvxlhGO8myVCkxUeUBwS3OAJryLmQ&_nc_ohc=VC1alQ-tii0Q7kNvgHnpElM&_nc_oc=AdgeRkumcfbY1-0CbgeljFBpVEpl0GpWJKEakQn-g0WbbIX_1JOjkY7jaT00WBlhyP4&_nc_zt=23&_nc_ht=z-p3-scontent.fadd1-1.fna&_nc_gid=AdFE8ppPOT7iEsoOE8gVwaa&oh=00_AYEbeAyagUhd9mzU25vxStcpYfzhW6QNRP_sb_eAkUi-nA&oe=67F6A0AC"
@@ -47,8 +47,8 @@ const About = () => {
                     />
                 </div>
             </Slider>
-            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4 md:px-12 lg:px-24">
-                <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-100">
+            <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white px-4 md:px-12 lg:px-24 pt-18">
+                <h1 className="text-3xl md:text-6xl font-bold mb-4 text-gray-100 lg:text-5xl">
                     Dr. Tesfaye Belachew
                 </h1>
                 <p className="text-lg md:text-xl mb-4 text-gray-100 font-bold">
