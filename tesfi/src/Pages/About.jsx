@@ -58,7 +58,7 @@ const About = () => {
                     Founder of Diakonia, a Spiritual College in Hawassa City, dedicated to training future leaders in the faith.
                 </p>
                 <button className="py-2 px-6 bg-blue-500 hover:bg-blue-700 text-white rounded-lg cursor-pointer font-bold">
-                    Learn Moreee
+                    Learn More
                 </button>
             </div>
         </section>
