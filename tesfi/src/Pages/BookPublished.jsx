@@ -28,7 +28,8 @@ function BookPublished() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="/purchase"
+                href="https://www.amazon.com/b/ref=usbk_surl_books/?node=283155"
+                 target="_blank"
                 className="bg-blue-900 text-white px-8 py-3 rounded-lg text-center hover:bg-blue-800 transition duration-300"
               >
                 Purchase Now

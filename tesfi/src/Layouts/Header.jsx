@@ -5,20 +5,22 @@ function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header id="home" className="bg-white shadow-md fixed w-full z-50">
+    <header className="bg-white shadow-md fixed w-full z-50">
       {/* Navbar Container */}
       <div className="container mx-auto flex justify-between items-center px-6 py-4 md:px-10">
         {/* Logo */}
-        <img
-          src="https://www.shutterstock.com/image-vector/simple-minimal-logo-design-church-600nw-2305257681.jpg"
-          alt="Logo"
-          className="w-20 md:w-24 cursor-pointer"
-        />
+        <a href="#home">
+          <img
+            src="https://www.shutterstock.com/image-vector/simple-minimal-logo-design-church-600nw-2305257681.jpg"
+            alt="Logo"
+            className="w-20 md:w-24 cursor-pointer"
+          />
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-8 items-center">
           {/* Home Icon */}
-          <a href="#home" className="text-gray-700 hover:text-blue-600 transition duration-300">
+          <a href="home" className="text-gray-700 hover:text-blue-600 transition duration-300">
             <FaHome className="text-2xl" />
           </a>
           {/* Navigation Links */}
