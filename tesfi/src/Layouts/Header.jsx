@@ -48,7 +48,7 @@ function Header() {
 
       {/* Mobile Navigation (Slide in from Right) */}
       <div
-        className={`fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 right-0 h-full w-64 bg-gray-200 shadow-lg transform transition-transform duration-300 ease-in-out ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         } z-50`}
       >
@@ -68,10 +68,10 @@ function Header() {
             <span>Home</span>
           </a>
           {/* Mobile Nav Links */}
-          <a href="#blog" className="text-gray-700 hover:text-blue-600 transition duration-300">Blog</a>
-          <a href="#school" className="text-gray-700 hover:text-blue-600 transition duration-300">School</a>
-          <a href="#books" className="text-gray-700 hover:text-blue-600 transition duration-300">Books & Publications</a>
-          <a href="#events" className="text-gray-700 hover:text-blue-600 transition duration-300">Events & Conferences</a>
+          <a href="#blog" className="text-gray-900 hover:text-blue-600 transition duration-300">Blog</a>
+          <a href="#school" className="text-gray-900 hover:text-blue-600 transition duration-300">School</a>
+          <a href="#books" className="text-gray-900 hover:text-blue-600 transition duration-300">Books & Publications</a>
+          <a href="#events" className="text-gray-900 hover:text-blue-600 transition duration-300">Events & Conferences</a>
 
           {/* Donate Button in Mobile Nav */}
           <button className="flex items-center gap-2 py-2 px-6 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition duration-300 mt-4">
